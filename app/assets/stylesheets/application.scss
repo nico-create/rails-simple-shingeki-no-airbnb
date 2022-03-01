@@ -1,3 +1,16 @@
+// External Libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome";
+
+// My CSS partials
+@import "components/index";
+// Flats
+@import "flats/index";
+
+// Graphical variables
+
+//
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

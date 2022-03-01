@@ -1,5 +1,22 @@
 <h1>Flats</h1>
 
+<div class="flex-container">
+    <% @flats.each do |flat| %>
+      <div class="flex-item">
+        <div class="card-flat">
+        <img src = "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
+          <div class="card-trip-infos">
+            <div>
+              <h5><%= flat.name %></h5>
+              <%= flat.description %>
+            </div>
+            <h6 class="card-flat-pricing"><%= flat.price_per_night %></h6>
+          </div>
+        </div>
+      </div>
+    <% end %>
+</div>
+
 <table>
   <thead>
     <tr>
