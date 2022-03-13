@@ -1,5 +1,17 @@
+.flex {
+  display: flex;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .flex-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 // Place all the styles related to the flats controller here.
 // They will automatically be included in application.css.

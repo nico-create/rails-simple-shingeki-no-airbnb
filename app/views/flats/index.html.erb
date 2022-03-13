@@ -1,11 +1,11 @@
-<h1>Flats</h1>
+<h1>Shingeki no Airbnb</h1>
 
-<div class="flex-container">
-    <% @flats.each do |flat| %>
-      <div class="flex-item">
+<div class="row">
+  <% @flats.each do |flat| %>
+    <div class="col-md-4">
         <div class="card-flat">
-        <img src = "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/greece.jpg" />
-          <div class="card-trip-infos">
+          <div class="card-flat-image" style="background-image: url('<%= flat.picture_url %>')"></div>
+          <div class="card-flat-content">
             <div>
               <h5><%= flat.name %></h5>
               <%= flat.description %>
@@ -15,29 +15,5 @@
         </div>
       </div>
     <% end %>
+  </div>
 </div>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Address</th>
-      <th>Description</th>
-      <th>Price per Night</th>
-      <th>Number of Guests</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @flats.each do |flat| %>
-    <tr>
-      <td><%= flat.name %></td>
-      <td><%= flat.address %></td>
-      <td><%= flat.description%></td>
-      <td><%= flat.price_per_night %></td>
-      <td><%= flat.number_of_guests %></td>
-    </tr>
-    <% end %>
-  </tbody>
-</table>
