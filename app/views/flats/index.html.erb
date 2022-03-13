@@ -17,10 +17,10 @@
             <p><%= flat.address %></p>
             <div class="flex">
               <div class="flex">
-                <%= flat.number_of_guests %> people
+                <i class="material-icons mr-2">people</i><span><%= flat.number_of_guests %></span>
               </div>
               <div class="flex ms-3">
-                € <%= flat.price_per_night %>
+                <i class="material-icons mr-2">euro_symbol</i><%= flat.price_per_night %>
               </div>
             </div>
           </div>
