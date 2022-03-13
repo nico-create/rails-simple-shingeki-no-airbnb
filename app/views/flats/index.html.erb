@@ -24,6 +24,10 @@
               </div>
             </div>
           </div>
+          <div class="card-flat-actions">
+            <%= link_to 'More info', flat_path(flat) %>
+            <%= link_to 'Edit', edit_flat_path(flat), class: 'ml-3 text-warning' %>
+          </div>
         </div>
       </div>
     <% end %>
