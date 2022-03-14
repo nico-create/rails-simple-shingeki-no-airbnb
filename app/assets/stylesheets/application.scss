@@ -9,6 +9,18 @@
 
 // Graphical variables
 
+body {
+  background-image:
+  linear-gradient(to bottom, rgba(22, 43, 51, 0.52), black),
+  asset_url("background-wall.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+    h1{
+    color: white
+  }
+}
+
 //
 
 /*
