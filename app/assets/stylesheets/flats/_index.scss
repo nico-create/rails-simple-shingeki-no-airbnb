@@ -18,6 +18,7 @@
 
 p{
   font-family: 'Linotext';
+  font-size: 18px;
 }
 .center{
   display: block;
@@ -90,3 +91,12 @@ p{
 // Place all the styles related to the flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+@font-face {
+   font-family: 'Linotext';
+   src: url('lintxt.ttf') format("truetype");
+}
+
+h1 {
+  font-family: 'Linotext';
+}
