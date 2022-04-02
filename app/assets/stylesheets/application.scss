@@ -10,21 +10,6 @@
 // Flats
 @import "flats/index";
 
-// Graphical variables
-
-body {
-  background-image:
-  linear-gradient(to bottom, rgba(22, 43, 51, 0.52), black),
-  asset_url("background-wall.jpg");
-  background-position: center;
-  background-size: cover;
-  object-fit: cover;
-  color: #1b1b1a;
-    h1{
-    color: white;
-  }
-}
-
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
