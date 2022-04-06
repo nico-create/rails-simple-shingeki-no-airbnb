@@ -58,3 +58,13 @@
   font-size: 20px;
   color: #333;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
