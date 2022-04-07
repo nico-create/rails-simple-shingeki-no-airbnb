@@ -36,3 +36,89 @@
 .navbar .navbar-brand img {
   width: 40px;
 }
+
+// SNK Title animation
+
+@font-face {
+  font-family: 'Linotext';
+  src: url('lintxt.ttf') format("truetype");
+}
+
+h1 {
+  font-family: 'Linotext';
+}
+
+p {
+  font-family: 'Linotext';
+  font-size: 18px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*text*/
+  text-align: center;
+  background-color: rgb(217, 217, 217);
+  width: 1000px;
+  height: 600px;
+}
+
+.text1 {
+  background-color: rgb(217, 217, 217);
+
+  /*Moving the text box*/
+  display: block;
+  transform: translate(-50%, 0%);
+  margin-left: 50%;
+
+  /*Text alig*/
+  text-align: left;
+  width: 1000px;
+  height: 750px;
+  margin-bottom: 30px;
+}
+
+.text-animation {
+  transform: translate(-50%, -30%);
+  margin-left: 38%;
+  width: 1000px;
+  position: absolute;
+}
+
+.text-animation h1 {
+  margin: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-size: 5em;
+  color: transparent;
+  background-image: url("https://preview.ibb.co/c6F389/atack.png");
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  background-position: 500px 150px;
+  font-family: 'Linotext'; // MODIF HERE
+  animation: bloodAnimate 35s linear infinite;
+}
+
+@keyframes bloodAnimate {
+  0% {
+    background-position: left 0px top 0px;
+  }
+
+  40% {
+    background-position: left 400px top 0px;
+  }
+
+  60% {
+    background-position: left 500px top 0px;
+  }
+
+  80% {
+    background-position: left 600px top 0px;
+  }
+
+  100% {
+    background-position: left 800px top 0px;
+  }
+}
