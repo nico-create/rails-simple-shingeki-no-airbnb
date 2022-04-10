@@ -4,3 +4,27 @@
    font-family: 'Linotext';
    src: asset-url('lintxt.ttf') format('truetype');
 }
+
+h1 {
+  font-family: 'Linotext';
+}
+
+p {
+  font-family: 'Linotext';
+  font-size: 18px;
+}
+
+.text1 {
+  background-color: rgb(217, 217, 217);
+
+  /*Moving the text box*/
+  display: block;
+  transform: translate(-50%, 0%);
+  margin-left: 50%;
+
+  /*Text align*/
+  text-align: left;
+  width: 1000px;
+  height: 750px;
+  margin-bottom: 30px;
+}
