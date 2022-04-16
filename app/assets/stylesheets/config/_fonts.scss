@@ -1,8 +1,9 @@
-// Linotext Font is the font used for logo of Attack on Titan, designed by Morris Fuller Benton
-
 @font-face {
   font-family: 'Linotext';
-  src: asset-url('lintxt.ttf') format('truetype');
+  src: font-url('LinotextStd.eot?#iefix') format('embedded-opentype'),
+    font-url('LinotextStd.woff2') format('woff2'),
+    font-url('LinotextStd.woff') format('woff'),
+    font-url('LinotextStd.ttf') format('truetype');
 }
 
 h1 {
@@ -13,3 +14,10 @@ p {
   font-family: 'Linotext';
   font-size: 18px;
 }
+
+// Linotext Font is the font used for logo of Attack on Titan, designed by Morris Fuller Benton
+
+// @font-face {
+//   font-family: 'Linotext';
+//   src: asset-url('lintxt.ttf') format('truetype');
+// }
