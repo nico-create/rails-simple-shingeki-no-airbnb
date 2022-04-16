@@ -40,7 +40,7 @@
 // SNK Title animation
 
 .navbar .text-animation {
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -20%);
   margin-left: 38%;
   width: 1000px;
   position: absolute;
@@ -51,7 +51,7 @@
   margin: 0;
   padding-bottom: 0;
   text-transform: uppercase;
-  font-size: 5em;
+  font-size: 4em;
   color: transparent;
   background-image: asset_url("characters-for-index-animation.png");
   background-repeat: repeat-x;
@@ -88,6 +88,60 @@
   display: none;
 }
 
+@media screen and (max-width: 1300px) {
+  .navbar .text-animation {
+    display: none;
+  }
+
+  .navbar-brand+.text-animation {
+    display: block;
+    width: 100%;
+    margin-left: 87%;
+    margin-top: 16px;
+
+    h1 {
+      font-size: 3em;
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar .text-animation {
+    display: none;
+  }
+
+  .navbar-brand+.text-animation {
+    display: block;
+    width: 100%;
+    margin-left: 90%;
+    margin-top: 16px;
+
+    h1 {
+      font-size: 3em;
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .navbar .text-animation {
+    display: none;
+  }
+
+  .navbar-brand+.text-animation {
+    display: block;
+    width: 100%;
+    margin-left: 93%;
+    margin-top: 16px;
+
+    h1 {
+      font-size: 3em;
+      display: flex;
+    }
+  }
+}
+
 @media screen and (max-width: 990px) {
   .navbar .text-animation {
     display: none;
@@ -118,8 +172,10 @@
 
 @media screen and (max-width: 534px) {
   .navbar-brand+.text-animation {
+    margin-top: 5%;
+
     h1 {
-      font-size: 1.6em;
+      font-size: 1.7em;
     }
   }
 }
